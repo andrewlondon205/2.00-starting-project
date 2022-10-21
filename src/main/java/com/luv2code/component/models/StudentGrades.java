@@ -1,9 +1,12 @@
 package com.luv2code.component.models;
 
+import org.springframework.stereotype.Component;
+
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.List;
 
+@Component
 public class StudentGrades {
 
     List<Double> mathGradeResults;

@@ -7,12 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-unit-testing-demo" />
+        <module name="2.00-starting-project" />
+        <module name="trash" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="2.00-starting-project" options="-parameters" />
       <module name="spring-boot-unit-testing-demo" options="-parameters" />
+      <module name="trash" options="-parameters" />
     </option>
   </component>
 </project>
